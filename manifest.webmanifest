@@ -1,0 +1,14 @@
+{
+  "name": "VIRALX — Tu energía, sin filtros",
+  "short_name": "VIRALX",
+  "description": "Retos rápidos, resultados inesperados y momentos para compartir.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080a16",
+  "theme_color": "#090b18",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
