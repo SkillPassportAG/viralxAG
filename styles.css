@@ -1,1 +1,174 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --bg: #090914;
+  --cyan: #55f2e3;
+  --violet: #a56bff;
+  --text: #f7f6ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 80% 0%, #29204b, transparent 40%), var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  background: #090914ee;
+  border-bottom: 1px solid #ffffff20;
+}
+
+header h2 {
+  font-family: 'Space Grotesk';
+}
+
+header span { color: var(--cyan); }
+
+button { cursor: pointer; color: white; }
+
+.screen { display: none; padding: 20px; }
+.screen.active { display: block; }
+
+h1 {
+  font: 700 31px 'Space Grotesk';
+}
+
+h1 span { color: #ff579c; }
+
+.video-card {
+  height: 70vh;
+  min-height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 70% 30%, #8a48e8, transparent 25%),
+    radial-gradient(circle at 25% 65%, #007e91, transparent 30%),
+    linear-gradient(145deg, #17152f, #080b18);
+}
+
+.visual  {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}
+
+.visual h2 {
+  font: 700 clamp(55px, 14vw, 78px)/.86 'Space Grotesk';
+  letter-spacing: -4px;
+}
+
+.visual p {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: var(--cyan);
+}
+
+.video-info {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 13px;
+}
+
+.video-actions {
+  posición: absolute;
+  right: 15px;
+  Fondo: 30px;
+  display: grid;
+  gap: 20px;
+}
+
+.video-actions button {
+  background: none;
+  border: none;
+  font-size: 28px;
+}
+
+.panel {
+  relleno: 20Px;
+  frontera-radio: 18Px;
+  Fondo: #19182c;
+  frontera: 1Px sólido #ffffff20;
+  Margen: 15Px 0;
+}
+
+       entrada, área de texto, seleccione         {
+  ancho: 100%;
+  relleno: 13Px;
+  Margen: 10Px 0;
+  Fondo: #151526;
+  color: blanco;
+  frontera: 1Px sólido #ffffff25;
+  frontera-radio: 10Px;
+}
+
+         textarea           { min-altura: 90Px; }
+
+#publicar {
+  ancho: 100%;
+  relleno: 14Px;
+ Fondo: Graduado lineal. linealVioletavioleta(Graduadolineal.(--Cyan), VAR(- ));
+  color: #101c;
+ Frontera: fronteraNinguno.
+   Radio fronterizo: 12.   
+    fuente-peso: 800;  
+}
+
+video{
+  ancho: 100%;
+  margen-top: 15Px;
+  frontera-radio: 12Px;
+}
+
+nav {
+  posición: fijo;
+  Fondo: 0;
+  izquierda: 50%;
+  transformar: traducirX(-50%);
+  ancho: 100%;
+  Max-Width: 560Px;
+  Altura: 75Px;
+  Fondo: #0c19f5;
+  Frontera-top: 1Px sólido #ffffff20;
+  display: Flex;
+ Justificar-contenido.: Justificar-contenido    alrededor.;  
+ Aline-Artículos: centro;
+}
+
+: #101c;{
+: #101c;fondoNinguno.
+: #101c;Ninguno..;
+: #101c;
+ Mostrar: rojo;
+ Justificar-artículos:: centro;
+          Brecha   Brecha: 4. Px; 4. Px;        
+}
+
+       nav pequeño         {
+  Fuente-tamaño: 9Px;
+  color: #aaa;
+}
+
+Botón de navegación:El           noveno niño. noveno niño.         (3) {
+ Fondo: Graduado- lineal.(FondoVAR(--Cyan)lineal.(- ));
+ color: #101c; 
+            ancho: 43          color;
+ Altura: 40 anchoancho;
+ Frontera-Radio: 12 Px;
+}
+
+Director. { acolchado-abajo: 85Px; }
+
+@media (min-width: 700Px) {
+             cuerpo             { Max-Width: 560Px; Margen: auto; }
+ Frontera:: 
